@@ -27,10 +27,10 @@ The result of every test case in the group is "ok".
 
 Example:
 T[0] = "test1a"   R[0] = "wrong answer"
-T[1] = "test2"    R[0] = "OK"
-T[2] = "test1b"   R[0] = "runtime error"
-T[3] = "test1c"   R[0] = "OK"
-T[4] = "test3"    R[0] = "time limit exceeded"
+T[1] = "test2"    R[1] = "OK"
+T[2] = "test1b"   R[2] = "runtime error"
+T[3] = "test1c"   R[3] = "OK"
+T[4] = "test3"    R[4] = "time limit exceeded"
 
 The function should return 33, total of group passed is one (the second group)
 For "test1c" is not passed, because another test1-x are not OK
